@@ -75,6 +75,6 @@ def runtime(nn_model, data):
 
 prediction = runtime(model, X_train)
 
-print("\n🎯 Model Predictions:")
+print("\nModel Predictions:")
 for i, pred in enumerate(prediction):
     print(f"Data {i+1}: {pred}")
